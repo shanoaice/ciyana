@@ -1,0 +1,22 @@
+{
+	"name": "ciyana-js",
+	"version": "1.0.0",
+	"description": "JavaScript backend of the CiyanaDB, abstract-leveldown compliant.",
+	"main": "index.js",
+	"repository": "https://github.com/zeta-xenia/ciyana",
+	"author": "ShiinaMashiroZ",
+	"license": "MIT",
+	"dependencies": {
+		"@sindresorhus/fnv1a": "^2.0.1",
+		"bethlehem": "^1.9.0",
+		"djb2a": "^1.2.0",
+		"fs-extra": "^9.1.0"
+	},
+	"devDependencies": {
+		"@ava/babel": "^1.0.1",
+		"ava": "^3.15.0"
+	},
+	"ava": {
+		"babel": true
+	}
+}
